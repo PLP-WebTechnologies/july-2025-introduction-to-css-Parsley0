@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: url('images/header-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #027368; /* Fallback */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #027368;
+    margin-top: 30px;
+}
+
+
+.featured-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+}
+
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #027368;
+    color: white;
+}
+
+.box {
+    background-color: #fff;
+    border: 3px solid #027368;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
